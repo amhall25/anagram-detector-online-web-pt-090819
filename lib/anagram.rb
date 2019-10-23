@@ -7,7 +7,8 @@ class Anagram
     if @anagram.sort==word.sort
       match << word
     end
-    match
+  end
+  match
   end
 
 end
